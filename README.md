@@ -5,10 +5,10 @@
 ## 🧠 Problem Solving Concept
 <p>In formulating the solution, I used two approaches.</p>
 
-1. Key-Value
+🗝️ **Key-Value**
 <p>This approach uses the concept of keys and values ​​contained in the database file. If there is a new question that has a keyword in the database, then output the value. Although this method is easy to implement, there are several disadvantages. For example, when there are several new questions that have the same words and different question intentions, this will produce the same value.</p>
- 
-2. Token Similarity
+
+🔢 **Token Similarity**
 <p>This approach uses a concept where new questions will be converted into a collection of tokens. Next, these tokens will be seen for their similarity to the tokens in the database. Finally, the model will output the response results.</p>
 
 ## 👩‍💻 System Development

@@ -9,7 +9,7 @@
 <p>This approach uses the concept of keys and values ​​contained in the database file. If there is a new question that has a keyword in the database, then output the value. Although this method is easy to implement, there are several disadvantages. For example, when there are several new questions that have the same words and different question intentions, this will produce the same value.</p>
 
 🔢 **Token Similarity**
-<p>This approach uses a concept where new questions will be converted into a collection of tokens. Next, these tokens will be seen for their similarity to the tokens in the database. Finally, the model will output the response results.</p>
+<p>This approach uses a concept where new questions will be converted into a collection of tokens. Next, these tokens will be seen for their similarity to the tokens in the database. Finally, the model will output the response results. I think this concept is better than key-value concept because pays more attention to the similarity of the tokens for each word. Therefore, I use this concept in the development of my project.</p>
 
 ## 👩‍💻 System Development
 <p>Tools used in creating the system include:</p>
